@@ -1,0 +1,53 @@
+body{
+    background-color: skyblue;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+button{
+    border-style: double;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4px 6px 4px 6px;
+}
+
+button:hover{
+    background-color: blue;
+   
+}
+
+#newarr{
+    margin-right: 200px;
+}
+
+#bubble,#selection,#insertion,#merge,#quick,#sizer,#speed{
+    margin-right: 20px;
+}
+
+#bar{
+    color: green;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: row;
+    padding: 20px 30px 0px 10px;
+}
+  
+.baritem {
+    background: blue;
+    border: 1.25px solid black;
+    width: 0.76%;
+  }
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color: #00FF00;
+}
